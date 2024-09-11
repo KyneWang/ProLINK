@@ -5,6 +5,7 @@
 [![pytorch](https://img.shields.io/badge/PyTorch_2.1+-ee4c2c?logo=pytorch&logoColor=white)](https://pytorch.org/get-started/locally/)
 [![pyg](https://img.shields.io/badge/PyG_2.4+-3C2179?logo=pyg&logoColor=#3C2179)](https://pytorch-geometric.readthedocs.io/en/latest/install/installation.html)
 [![ULTRA arxiv](http://img.shields.io/badge/arxiv-2402.11804-yellow.svg)](https://arxiv.org/abs/2402.11804)
+![license](https://img.shields.io/badge/License-MIT-green.svg?labelColor=gray)
 
 </div>
 
