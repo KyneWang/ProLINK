@@ -41,9 +41,7 @@ We can use the following commands to conduct the inference process of ProLINK ba
 
 ## Citation ##
 
-If you find this codebase useful in your research, please cite the original papers.
-
-The main ULTRA paper:
+If you find this codebase useful in your research, please cite the original paper.
 
 ```bibtex
 @inproceedings{wang-etal-2024-llm,
