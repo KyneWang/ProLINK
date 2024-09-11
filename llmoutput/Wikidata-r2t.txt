@@ -1,0 +1,321 @@
+P527	has part(s): part of this subject; inverse property of "part of" (P361). See also "has parts of the class" (P2670).
+P703	found in taxon: the taxon in which the item can be found
+P1071	location of creation: place where the item was conceived or made; where applicable, location of final assembly
+P509	cause of death: underlying or immediate cause of death.  Underlying cause (e.g. car accident, stomach cancer) preferred. Use 'manner of death' (P1196) for broadest category, e.g. natural causes, accident, homicide, suicide
+P183	endemic to: sole location or habitat type where the taxon lives
+P2293	genetic association: general link between a disease and the causal genetic entity, if the detailed mechanism is unknown/unavailable
+P105	taxon rank: level in a taxonomic hierarchy
+P376	located on astronomical body: single astronomical body on which features or places are situated
+P171	parent taxon: closest parent taxon of the taxon in question
+P551	residence: the place where the person is or has been, resident
+P1196	manner of death: general circumstances of a person's death; e.g. natural causes, accident, suicide, homicide, etc.  Use 'cause of death' (P509) for the specific physiological mechanism, e.g. heart attack, trauma, pneumonia etc.
+P1050	medical condition: any state relevant to the health of an organism, including diseases and positive conditions
+P2597	Gram staining: Gram stain type of a bacterial strain
+P1995	health specialty: main specialty that diagnoses, prevent human illness, injury and other physical and mental impairments
+P1057	chromosome: chromosome on which an entity is localized
+P272	production company: company that produced this film, audio or performing arts work
+P123	publisher: organization or person responsible for publishing books, periodicals, printed music, podcasts, games or software
+P17	country: sovereign state that this item is in (not to be used for human beings)
+P1040	film editor: person who works with the raw footage, selecting shots and combining them into sequences to create a finished motion picture
+P162	producer: person(s) who produced the film, musical work, theatrical production, etc. (for film, this does not include executive producers, associate producers, etc.) [for production company, use P272, video games - use P178]
+P355	has subsidiary: subsidiary of a company or organization; generally a fully owned separate corporation. Compare with "business division" (P199). Opposite of parent organization (P749).
+P102	member of political party: the political party of which a person is or has been a member or otherwise affiliated
+P108	employer: person or organization for which the subject works or worked
+P161	cast member: actor in the subject production [use "character role" (P453) and/or "name of the character role" (P4633) as qualifiers] [use "voice actor" (P725) for voice-only role]
+P749	parent organization: parent organization of an organization, opposite of subsidiaries (P355)
+P463	member of: organization, club or musical group to which the subject belongs. Do not use for membership in ethnic or social groups, nor for holding a political position, such as a member of parliament (use P39 for that)
+P306	operating system: operating system (OS) on which a software works or the OS installed on hardware
+P364	original language of film or TV show: language in which a film or a performance work was originally created. Deprecated for written works and songs; use P407 ("language of work or name") instead.
+P282	writing system: alphabet, character set or other system of writing used by a language, word, or text, supported by a typeface
+P1412	languages spoken, written or signed: language(s) that a person or a people speaks, writes or signs, including the native language(s)
+P103	native language: language or languages a person has learned from early childhood
+P277	programmed in: the programming language(s) in which the software is developed
+P279	subclass of: this item is a subclass (subset) of that item; all instances of this item are instances of that item; different from P31 (instance of), e.g.: K2 is an instance of mountain; volcano is a subclass of mountain (and an instance of volcanic landform)
+P516	powered by: equipment or engine used by the subject to convert a source or energy into mechanical energy
+P61	discoverer or inventor: subject who discovered, first described, invented, or developed this discovery or invention or scientific hypothesis or theory
+P407	language of work or name: language associated with this creative work (such as books, shows, songs, broadcasts or websites) or a name (for persons use "native language" (P103) and "languages spoken, written or signed" (P1412))
+P3092	film crew member: member of the crew creating an audiovisual work, used for miscellaneous roles qualified with the job title when no specific property exists. Don't use if such a property is available: notably for cast member (P161), director (P57), etc.
+P647	drafted by: which team the player was drafted by
+P1877	after a work by: artist whose work strongly inspired/ was copied in this item
+P1074	fictional or mythical analog of: used to link an entity or class of entities appearing in a creative work with the analogous entity or class of entities in the real world
+P57	director: director(s) of film, TV-series, stageplay, video game or similar
+P1303	instrument: musical instrument that a person plays or teaches or used in a music occupation
+P1445	fictional universe described in: to link a fictional universe with a work that describes it: <universe> "described in the work:" <work>
+P1546	motto: description of the motto of the subject
+P58	screenwriter: person(s) who wrote the script for subject item
+P180	depicts: entity visually depicted in an image, literarily described in a work, or otherwise incorporated into an audiovisual or other medium; see also P921,  'main subject'
+P156	followed by: immediately following item in a series of which the subject is a part, preferably use as qualifier of P179 [if the subject has been replaced, e.g. political offices, use "replaced by" (P1366)]
+P87	librettist: author of the libretto (words) of an opera, operetta, oratorio or cantata, or of the book of a musical
+P358	discography: item for list pages with discography of artist or band
+P1029	crew member(s): person(s) that participated operating or serving aboard this vehicle
+P3300	musical conductor: the person who directs a musical group, orchestra or chorus
+P170	creator: maker of this creative work or other object (where no more specific property exists)
+P166	award received: award or recognition received by a person, organization or creative work
+P406	soundtrack release: music release that incorporates music directly recorded from the soundtrack of an audiovisual work
+P3275	storyboard artist: person credited as the storyboard artist of this work
+P1456	list of monuments: link to the list of heritage monuments in the place/area
+P4312	camera setup: filmmaking method that the cameras were placed by. Use single-camera (Q2918907) or multiple-camera (Q738160)
+P344	director of photography: person responsible for the framing, lighting, and filtration of the subject work
+P1441	present in work: this (fictional or fictionalized) entity, place, or person appears in that work as part of the narration (use P2860 for works citing other works, P361/P1433 for works being part of other works, P1343 for entities described in non-fictional accounts)
+P2550	recording or performance of: item is a recording or release of this composition
+P50	author: main creator(s) of a written work (use on works, not humans); use P2093 (author name string) when Wikidata item is unknown or does not exist
+P483	recorded at studio or venue: studio or location where a musical composition/release was recorded
+P1431	executive producer: executive producer of a movie or TV show
+P1299	depicted by: object depicting this subject (object being creative works such as books, films, paintings)
+P86	composer: person(s) who wrote the music [for lyricist, use "lyrics by" (P676)]
+P676	lyrics by: author of song lyrics
+P942	theme music: the theme music/song used by the item
+P2554	production designer: person(s) responsible for overall aesthetic of the story of this motion picture, play, video game or similar; responsible for visual concept, producing interior, exterior, location, graphics, etc; deals with many and varied logistic related to this
+P737	influenced by: this person, idea, etc. is informed by that other person, idea, etc., e.g. “Heidegger was influenced by Aristotle”
+P98	editor: person who checks and correct a work (such as a book, newspaper, academic journal, etc.) to comply with a rules of certain genre
+P110	illustrator: person drawing the pictures or taking the photographs in a book
+P2515	costume designer: person who designed the costumes for a film, television programme, etc.
+P547	commemorates: what the place, monument, memorial, or holiday, commemorates
+P826	tonality: key of a musical composition
+P915	filming location: actual place where this scene/film was shot. For the setting, use "narrative location" (P840)
+P1283	filmography: item for the list of films a person has contributed to. Don't use it to add film items. Instead, add actors as "cast member" (P161) on items for films, directors with "director" (P57)
+P840	narrative location: the narrative of the work is set in this location
+P725	voice actor: performer of a spoken role in a creative work such as animation, video game, radio drama, or dubbing over [use "character role" (P453) as qualifier] [use "cast member" (P161) for live acting]
+P674	characters: characters which appear in this item (like plays, operas, operettas, books, comics, films, TV series, video games)
+P3301	broadcast by: channel, network, website or service that broadcast this item over radio, television or the Internet
+P2563	superhuman feature or ability: superhuman, supernatural, or paranormal abilities that the fictional subject exhibits
+P136	genre: creative work's genre or an artist's field of work (P101). Use main subject (P921) to relate creative works to their topic
+P175	performer: actor, musician, band or other performer associated with this role or musical work
+P1064	track gauge: spacing of the rails on a railway track
+P113	airline hub: airport that serves as a hub for an airline
+P1002	engine configuration: configuration of an engine's cylinders
+P3093	recovered by: person, organisation or vehicle that recovered the item. Use the most specific value known.
+P137	operator: person, profession, or organization that operates the equipment, facility, or service
+P669	located on street: street, road, or square, where the item is located. To add the number, use Property:P670 "house number" as qualifier. Use property P6375 "street address", if there is no item for the street
+P833	interchange station: station to which passengers can transfer from this station, normally without extra expense
+P707	spacecraft bus: general model on which multiple-production spacecraft is based
+P121	item operated: equipment, installation or service operated by the subject
+P16	transport network: network the infrastructure is a part of
+P834	train depot: depot which serves this railway line, not public stations
+P289	vessel class: series of vessels or other watercraft built to the same design of which this vessel is a member
+P521	scheduled service destination: airport or station connected by regular direct service to the subject; for the destination of a trip see P1444
+P81	connecting line: railway line(s) subject is directly connected to
+P3438	vehicle normally used: vehicle the subject normally uses
+P1078	valvetrain configuration: configuration of the valvetrain utilized by this engine
+P1654	wing configuration: configuration of wing(s) used by an aircraft
+P3082	destroyed: physical items destroyed by this event
+P559	terminus: the feature (intersecting road, train station, etc.) at the end of a linear feature
+P193	main building contractor: the main organization responsible for construction of this structure or building
+P1192	connecting service: service stopping at a station
+P197	adjacent station: the stations next to this station, sharing the same line(s)
+P176	manufacturer: (main or final) manufacturer or producer of this product
+P1876	vessel: vessel involved in this mission, navigation or event
+P375	space launch vehicle: type of rocket or other vehicle for launching subject payload into outer space
+P1302	primary destinations: major towns and cities that a road serves
+P2935	connector: connectors which the device has/supports
+P1552	has characteristic: inherent or distinguishing quality or feature of the entity. Use a more specific property when possible.
+P3264	radix: number of distinct digits in a positional numeral system
+P3985	supports programming language: programming language which is supported by this programming tool
+P4224	category contains: category contains elements that are instances of this item
+P2739	typeface/font used: style of type used in a work
+P2936	language used: language widely used (spoken or written) in this place or at this event
+P4387	update method: method used by an app/OS to receive updates or self-update
+P2992	software quality assurance: quality assurance process in place for a particular software
+P913	notation: mathematical notation or another symbol
+P2079	fabrication method: method, process or technique used to grow, cook, weave, build, assemble, manufacture the item
+P366	has use: main use of the subject (includes current and former usage)
+P943	programmer: the programmer that wrote the piece of software
+P624	guidance system: guidance system of a missile
+P1210	supercharger: supercharger or turbocharger used by an engine
+P655	translator: agent who adapts any kind of written text from one language to another
+P2159	computes solution to: problem that this algorithm or method solves
+P878	avionics: notable sensors, electronics, and other avionics installed in the subject aircraft
+P515	phase of matter: state or phase of the matter at which the measure was made
+P1073	writable file format: file format a program can create and/or write to
+P1547	depends on software: subject software depends on object software
+P2700	protocol: communication protocol to use to access a dataset or service
+P3966	programming paradigm: programming paradigm in which a programming language is classified
+P2853	electrical plug type: standard plug type for mains electricity in a country
+P751	introduced feature: feature introduced by this version of a product item
+P756	removed feature: which feature was removed by this version of a product item
+P1056	product or material produced or service provided: material or product produced by an organization, industry, facility, or process
+P1372	binding of software library: software library in another programming language provided by the subject software binding
+P111	measured physical quantity: value of a physical property expressed as number multiplied by a unit
+P1322	dual to: dual of a polytope, graph or curve
+P1202	carries scientific instrument: scientific instruments carried by a vessel, satellite, or device that are not required for propelling or navigating
+P415	radio format: describes the overall content broadcast on a radio station
+P2575	measures: physical quantity that this device measures
+P1211	fuel system: fuel system that an engine uses
+P3033	package management system: package management system used to publish the software
+P4132	linguistic typology: classification of languages according to their linguistic trait (as opposed to historical families like romance languages)
+P1060	disease transmission process: process by which a pathogen is transmitted, equivalent to "transmitted by" in the relation ontology http://purl.obolibrary.org/obo/RO_0002451
+P970	neurological function: the function of a neurological structure
+P2289	venous drainage: vein draining the anatomical structure
+P927	anatomical location: where in the body or cell does this feature lie or happen
+P780	symptoms and signs: possible symptoms or signs of a medical condition
+P2286	arterial supply: arterial supply of an anatomical structure
+P769	significant drug interaction: clinically significant interaction between two pharmacologically active substances (i.e., drugs and/or active metabolites) where concomitant intake can lead to altered effectiveness or adverse drug events.
+P2175	medical condition treated: disease that this pharmaceutical drug, procedure, or therapy is used to treat
+P3432	parent cell line: closest parent cell line of the cell line in question
+P924	possible treatment: health treatment used to resolve or ameliorate a medical condition
+P689	afflicts: type of organism, organ or anatomical structure which a condition or disease afflicts
+P923	medical examination: examinations that might be used to diagnose and/or prognose the medical condition
+P4545	sexually homologous with: body part that originates from the same tissue or cell during fetal development in the opposing sex
+P3189	innervated by: nerves which innervate this anatomical structure
+P3205	patient of: was treated or studied as a patient by this person
+P2176	drug or therapy used for treatment: drug, procedure, or therapy that can be used to treat a medical condition
+P1924	vaccine for: disease that a vaccine is for
+P3354	positive therapeutic predictor for: the presence of the genetic variant helps to predict response to a treatment
+P84	architect: person or architectural firm responsible for designing this building
+P3373	sibling: the subject and the object have at least one common parent (brother, sister, etc. including half-siblings); use "relative" (P1038) for siblings-in-law (brother-in-law, sister-in-law, etc.) and step-siblings (step-brothers, step-sisters, etc.)
+P22	father: male parent of the subject. For stepfather, use "stepparent" (P3448)
+P1080	from narrative universe: subject's fictional entity is in the object narrative. See also P1441 (present in work) and P1445 (fictional universe described in)
+P1038	relative: family member (qualify with "type of kinship", P1039; for direct family member please use specific property)
+P186	made from material: material the subject or the object is made of or derived from (do not confuse with P10672 which is used for processes)
+P802	student: notable student(s) of the subject individual
+P437	distribution format: method (or type) of distribution for the subject
+P275	copyright license: license under which this copyrighted work is released
+P25	mother: female parent of the subject. For stepmother, use "stepparent" (P3448)
+P40	child: subject has object as child. Do not use for stepchildren—use "relative" (P1038), qualified with "type of kinship" (P1039)
+P735	given name: first name or another given name of this person; values used with the property should not link disambiguations nor family names
+P734	family name: part of full name of person
+P1066	student of: person who has taught this person
+P184	doctoral advisor: person who supervised the doctorate or PhD thesis of the subject
+P106	occupation: occupation of a person; see also "field of work" (Property:P101), "position held" (Property:P39)
+P135	movement: literary, artistic, scientific or philosophical movement or scene associated with this person or work. For political ideologies use P1142.
+P26	spouse: the subject has the object as their spouse (husband, wife, partner, etc.). Use "unmarried partner" (P451) for non-married companions
+P178	developer: organization or person that developed the item
+P641	sport: sport that the subject participates or participated in or is associated with
+P413	position played on team / speciality: position or specialism of a player on a team
+P54	member of sports team: sports teams or clubs that the subject represents or represented
+P115	home venue: home stadium or venue of a sports team or applicable performing arts organization
+P2416	sports discipline competed in: discipline an athlete competed in within a sport
+P2094	competition class: official classification by a regulating body under which the subject (events, teams, participants, or equipment) qualifies for inclusion
+P118	league: league in which team or player plays or has played in
+P286	head coach: on-field manager or head coach of a sports club (not to be confused with a general manager P505, which is not a coaching position) or person
+P140	religion or worldview: religion of a person, organization or religious building, or associated with this subject
+P1365	replaces: person, state or item replaced. Use "structure replaces" (P1398) for structures. Use "follows" (P155) if the previous item was not replaced or predecessor and successor are identical
+P2670	has part(s) of the class: the subject has one or more parts of the object class
+P460	said to be the same as: this item is said to be the same as that item, though this may be uncertain or disputed
+P1478	has immediate cause: nearest, proximate thing that directly resulted in the subject as outcome or effect. Used in conjunction with 'has cause' (i.e. underlying cause) and 'has contributing factor'. See 'Help:Modeling causes'.
+P371	presenter: main role in presenting a radio or television program or a performing arts show
+P1327	partner in business or sport: professional collaborator
+P1950	second family name in Spanish name: second (generally maternal) family name in Spanish names (do not use for other double barrelled names) and in some French names.
+P97	noble title: titles held by the person
+P3342	significant person: person linked to the item in any possible way
+P1817	addressee: person or organization to whom a letter or note is addressed
+P155	follows: immediately prior item in a series of which the subject is a part, preferably use as qualifier of P179 [if the subject has replaced the preceding item, e.g. political offices, use "replaces" (P1365)]
+P410	military rank: military rank achieved by a person (should usually have a "start time" qualifier), or military rank associated with a position
+P3448	stepparent: subject has the object as their stepparent
+P53	family: family, including dynasty and nobility houses. Not family name (use P734 for family name).
+P172	ethnic group: subject's ethnicity (consensus is that a VERY high standard of proof is needed for this field to be used. In general this means 1) the subject claims it themselves, or 2) it is widely agreed on by scholars, or 3) is fictional and portrayed as such)
+P21	sex or gender: sex or gender identity of human or animal. For human: male, female, non-binary, intersex, transgender female, transgender male, agender, etc. For animal: male organism, female organism. Groups of same gender use subclass of (P279)
+P3018	located in protected area: protected area where a place or geographical feature is physically located
+P1037	director / manager: person who manages any kind of group
+P937	work location: location where persons or organisations were actively participating in employment, business or other work
+P30	continent: continent of which the subject is a part
+P199	business division: organizational divisions of this organization (which are not independent legal entities)
+P609	terminus location: location of the terminus of a linear feature
+P466	occupant: person or organization occupying property
+P1383	contains settlement: settlement which an administrative division contains
+P189	location of discovery: where the item was located when discovered
+P131	located in the administrative territorial entity: the item is located on the territory of the following administrative entity. Use P276 for specifying locations that are non-administrative places and for items about events. Use P1382 if the item falls only partially into the administrative entity.
+P945	allegiance: country (or other power) that the person or group serves
+P190	twinned administrative body: twin towns, sister cities, twinned municipalities and other localities that have a partnership or cooperative agreement, either legally or informally acknowledged by their governments
+P47	shares border with: countries or administrative subdivisions, of equal level, that this item borders, either by land or water. A single common point is enough.
+P1462	standards body: organisation that published or maintains the standard governing an item
+P194	legislative body: legislative body governing this entity; political institution with elected representatives, such as a parliament/legislature or council
+P114	airline alliance: alliance the airline belongs to
+P201	lake outflow: rivers and other outflows waterway names. If evaporation or seepage are notable outflows, they may be included. Some terms may not be place names, e.g. evaporation
+P1376	capital of: country, state, department, canton or other administrative division of which the municipality is the governmental seat
+P1435	heritage designation: heritage designation of a cultural or natural site
+P1408	licensed to broadcast to: place that a radio/TV station is licensed/required to broadcast to
+P241	military branch: branch to which this military unit, award, office, or person belongs, e.g. Royal Navy
+P664	organizer: person or institution organizing an event
+P1313	office held by head of government: political office that is fulfilled by the head of the government of this item
+P6	head of government: head of the executive power of this town, city, municipality, state, country, or other governmental body
+P1268	represents: organization, individual, or concept that an entity represents
+P35	head of state: official with the highest formal authority in a country/state
+P1001	applies to jurisdiction: the item (institution, law, public office, public register...) or statement belongs to or has power over or applies to the value (a territorial jurisdiction: a country, state, municipality, ...)
+P706	located in/on physical feature: located on the specified (geo)physical feature. Should not be used when the value is only political/administrative (P131) or a mountain range (P4552).
+P205	basin country: country that have drainage to/from or border the body of water
+P610	highest point: point with highest elevation in a region, or on the path of a race or route
+P3137	parent peak: parent is the peak whose territory this peak resides in, based on the contour of the lowest col
+P36	capital: seat of government of a country, province, state or other type of administrative territorial entity
+P206	located in or next to body of water: body of water on or next to which a place is located
+P974	tributary: watercourse that flows into an other one (for lake inflows use P200)
+P414	stock exchange: exchange on which this company is traded
+P740	location of formation: location where a group or organization was formed
+P65	site of astronomical discovery: the place where an astronomical object was discovered (observatory, satellite)
+P1589	lowest point: point with lowest elevation in the country, region, city or area
+P1951	investor: individual or organization which invests money in the item for the purpose of obtaining financial return on their investment
+P150	contains the administrative territorial entity: (list of) direct subdivisions of an administrative territorial entity
+P276	location: location of the object, structure or event. In the case of an administrative entity as containing item use P131. For statistical entities use P8138. In the case of a geographic entity use P706. Use P7153 for locations associated with the object
+P163	flag: subject's flag
+P200	inflows: major inflow sources — rivers, aquifers, glacial runoff, etc. Some terms may not be place names, e.g. none
+P421	located in time zone: time zone for this item
+P127	owned by: owner of the subject
+P159	headquarters location: city or town, where an organization's headquarters is or has been situated. Use P276 qualifier for specific building
+P2578	studies: subject item is the academic field studying the object item of this property
+P149	architectural style: architectural style of a structure
+P451	unmarried partner: someone with whom the person is in a relationship without being married. Use "spouse" (P26) for married couples
+P452	industry: industry of company or organization
+P19	place of birth: most specific known (e.g. city instead of country, or hospital instead of city) birth location of a person, animal or fictional character
+P20	place of death: most specific known (e.g. city instead of country, or hospital instead of city) death location of a person, animal or fictional character
+P138	named after: entity or event that inspired the subject's name, or namesake (in at least one language). Qualifier "applies to name" (P5168) can be used to indicate which one
+P2283	uses: item or concept used by the subject or in the operation (see also instrument [P1303] and armament [P520])
+P488	chairperson: presiding member of an organization, group or body
+P4552	mountain range: range or subrange to which the geographical item belongs
+P800	notable works: notable scientific, artistic or literary work, or other work of significance among subject's works
+P2348	time period: time period (historic period or era, sports season, theatre season, legislative period etc.) in which the subject occurred
+P1454	legal form: legal form of an organization
+P495	country of origin: country of origin of this item (creative work, food, phrase, product, etc.)
+P69	educated at: educational institution attended by subject
+P264	record label: brand and trademark associated with the marketing of subject music recordings and music videos
+P169	chief executive officer: highest-ranking corporate officer appointed as the CEO within an organization
+P3095	practiced by: type of agents that study this subject or work in this profession
+P27	country of citizenship: the object is a country that recognizes the subject as its citizen
+P361	part of: object of which the subject is a part (if this subject is already part of object A which is a part of object B, then please only make the subject part of object A). Inverse property of "has part" (P527, see also "has parts of the class" (P2670)).
+P119	place of burial: location of grave, resting place, place of ash-scattering, etc, (e.g. town/city or cemetery) for a person or animal. There may be several places: e.g. re-burials, cenotaphs, parts of body buried separately.
+P530	diplomatic relation: diplomatic relations of the country
+P457	foundational text: text through which an institution or object has been created or established
+P112	founded by: founder or co-founder of this organization, religion or place
+P37	official language: language designated as official by this item
+P101	field of work: specialization of a person or organization; see P106 for the occupation
+P179	part of the series: series which contains the subject
+P3161	has grammatical mood: language has this grammatical mood/mode for signaling modality
+P1560	given name version for other gender: equivalent name (with respect to the meaning of the name) in the same language: female version of a male first name, male version of a female first name. Add primarily the closest matching one
+P3103	has tense: grammatical category expressing time reference of the language. To include a sample, use qualifier "quote" (P1683), sample: "He writes". If an activity before is needed "He sees". If an activity afterwards is needed: "He reads".
+P38	currency: currency used by item
+P2789	connects with: item with which the item is physically connected
+P2499	league level above: the league above this sports league
+P185	doctoral student: doctoral student(s) of a professor
+P462	color: color of subject
+P1414	GUI toolkit or framework: framework or toolkit a program uses to display the graphical user interface
+P1889	different from: item that is different from another item, with which it may be confused
+P449	original broadcaster: network(s) or service(s) that originally broadcast a radio or television program
+P1990	species kept: taxa, preferably species, present at a zoo, botanical garden,  collection, or other institution. NOT specific animals, not for any geographic location
+P408	software engine: software engine employed by the subject item
+P400	platform: platform for which a work was developed or released, or the specific platform version of a software product
+P832	public holiday: official public holiday that occurs in this place in its honor, usually a non-working day
+P1533	family name identical to this given name: last name that is the same as a given first name. Use on items for given names
+P1028	donated by: person or organization who donated the object
+P2989	has grammatical case: case used in this language
+P31	instance of: that class of which this subject is a particular example and member; different from P279 (subclass of); for example: K2 is an instance of mountain; volcano is a subclass of mountain (and an instance of volcanic landform)
+P1336	territory claimed by: administrative divisions that claim control of a given area
+P122	basic form of government: subject's government
+P750	distributed by: distributor of a creative work; distributor for a record label; news agency; film distributor
+P2881	promoted: competitor or team promoted during competition
+P710	participant: person, group of people or organization (object) that actively takes/took part in an event or process (subject).  Preferably qualify with "object has role" (P3831). Use P1923 for participants that are teams.
+P607	conflict: battles, wars or other military engagements in which the person or item participated
+P1343	described by source: work where this item is described
+P921	main subject: primary topic of a work (see also P180: depicts)
+P485	archives at: the institution holding the subject's archives
+P2882	relegated: competitor or team relegated during competition
+P1072	readable file format: file format a program can open and read
+P1366	replaced by: other person or item which continues the item by replacing it in its role. Use P156 ("followed by") if the item is not replaced nor identical, but adds to the series (e.g. books in a series).
+P479	input device: input device used to interact with a software or a device
+P807	separated from: subject was founded or started by separating from identified object
+P1427	start point: starting place of this journey, flight, voyage, trek, migration etc.
+P141	IUCN conservation status: conservation status assigned by the International Union for Conservation of Nature
+P1444	destination point: destination for this route (journey, flight, sailing, exploration, migration, etc.)
+P2341	indigenous to: place or ethnic group where a language, art genre, cultural tradition or expression, cooking style or food, or biological species or variety is found (or was originally found)
+P412	voice type: person's voice type. expected values: soprano, mezzo-soprano, contralto, countertenor, tenor, baritone, bass (and derivatives)
+P1018	language regulatory body: regulatory body of a language
+P1923	participating team: like 'Participant' (P710) but for teams. For an event like a cycle race or a football match you can use this property to list the teams and P710 to list the individuals (with 'member of sports team' (P54) as a qualifier for the individuals)
+P512	academic degree: academic degree that the person holds
