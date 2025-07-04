@@ -137,6 +137,61 @@ def compute_ranking(pred, target, mask=None):
         ranking = torch.sum(pos_pred <= pred, dim=-1) + 1
     return ranking
 
+def build_selfloop_edges(graph):
+    device = graph.edge_index.device
+    rel_mask = graph.edge_type != graph.num_relations
+    
+    unique_ents = torch.unique(torch.cat([graph.edge_index[0],graph.edge_index[1]]), dim=0) # 2
+    self_edge_index = torch.stack([unique_ents, unique_ents], dim=0)
+    self_edge_type = torch.ones(len(unique_ents)).to(device).long() * graph.num_relations.long()
+
+    total_edge_index = torch.cat([graph.edge_index.t()[rel_mask].t(),self_edge_index],dim=1)
+    total_edge_type = torch.cat([graph.edge_type[rel_mask],self_edge_type],dim=0)
+    graph.edge_index = total_edge_index
+    graph.edge_type = total_edge_type
+    return graph
+
+def build_relation_types(graph):
+    n_rel = (graph.num_relations // 2).item()
+    #####################
+    rel_mask = graph.edge_type != graph.num_relations # remove self-loop first
+    #####################
+    edge_index, edge_type = graph.edge_index.t()[rel_mask].t(), graph.edge_type[rel_mask]
+    
+    triples = torch.vstack([edge_index[0], edge_type, edge_index[1]]).T.detach().cpu().numpy().tolist()
+    filter_dict = defaultdict(lambda: defaultdict(lambda: set()))
+    for h, r, t in triples:
+        filter_dict[r][h].add(t)
+
+    bern_prob = torch.zeros(n_rel * 2).long()
+    rel_type = torch.zeros(n_rel * 2).long()
+    for r in range(0, n_rel):
+        r2 = r + n_rel
+        rel_dict = filter_dict[r]
+        rel_dict2 = filter_dict[r2]
+
+        tph, hpt = 0, 0
+        if len(rel_dict) > 0:
+            tph = sum(len(tails) for tails in rel_dict.values()) / len(rel_dict)
+        if len(rel_dict2) > 0:
+            hpt = sum(len(heads) for heads in rel_dict2.values()) / len(rel_dict2)
+        bern_prob[r] = tph / max(tph + hpt, 1)
+
+        if tph < 1.5 and hpt < 1.5:
+            type = 0; type2 = 0  # 1-1
+        elif tph >= 1.5 and hpt < 1.5:
+            type = 1; type2 = 2  # 1-n
+        elif tph < 1.5 and hpt >= 1.5:
+            type = 2; type2 = 1  # n-1
+        elif tph >= 1.5 and hpt >= 1.5:
+            type = 3; type2 = 3  # n-n
+        # print(r, tph, hpt, type, r2, type2)
+        rel_type[r] = type
+        rel_type[r2] = type2
+    # rel_type[n_rel * 2] = 0
+    graph.relation_types = rel_type
+    return graph
+
 def build_relation_graph(graph):
     # expect the graph is already with inverse edges
 
